@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive HTML example including various tags and concepts.">
+    <title>Comprehensive HTML Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<section>
+    <header>
+        <h1>Welcome to My HTML Example Page</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This is a comprehensive example showcasing various HTML elements and concepts. Below are some lists and a table:</p>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML Structure</li>
+            <li>CSS for Styling</li>
+            <li>JavaScript for Interactivity</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Understand HTML</li>
+            <li>Learn CSS</li>
+            <li>Master JavaScript</li>
+        </ol>
+
+        <h3>Table Example</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apples</td>
+                    <td>10</td>
+                    <td>$5</td>
+                </tr>
+                <tr>
+                    <td>Oranges</td>
+                    <td>5</td>
+                    <td>$3</td>
+                </tr>
+                <tr>
+                    <td>Bananas</td>
+                    <td>8</td>
+                    <td>$4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some images:</p>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+    </section>
+
+    <section id="contact">
+        <h2>Contact Form</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h3>Hello</h3>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My HTML Example Page</p>
+        <p>Follow us on <a href="https://twitter.com" target="_blank">Twitter</a></p>
+    </footer>
+
+    
+</body>
+
+</html>
